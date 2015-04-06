@@ -20,5 +20,4 @@ public class GeoMapper extends Mapper<Text, Text, Text, CustomWritable> {
 				con.write(new Text(k), value); 
 			}
 		}
-
 }
