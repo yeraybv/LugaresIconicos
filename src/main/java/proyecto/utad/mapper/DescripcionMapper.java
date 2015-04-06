@@ -17,5 +17,4 @@ public class DescripcionMapper extends Mapper<Text, Text, Text, CustomWritable> 
 			value.setTexto(line.toLowerCase());
 			con.write(new Text(k), value); 
 		}
-
 }
