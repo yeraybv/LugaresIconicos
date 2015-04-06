@@ -77,5 +77,4 @@ public class CustomWritable implements WritableComparable<CustomWritable> {
 			return false;
 		return true;
 	}
-
 }
