@@ -11,6 +11,7 @@ import proyecto.utad.extras.CustomWritable;
 
 public class FlickReducer extends Reducer<Text, CustomWritable, Text, MapWritable>
 {
+
 	public void reduce(Text key, Iterable<CustomWritable> text, Context con)
             throws IOException , InterruptedException
     {
