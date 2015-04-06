@@ -20,5 +20,4 @@ public class TagsMapper extends Mapper<Text, Text, Text, CustomWritable> {
 				con.write(new Text(line[0]), value); 
 			}
 		}
-		
 }
