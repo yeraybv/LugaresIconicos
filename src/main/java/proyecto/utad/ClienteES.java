@@ -22,8 +22,7 @@ public class ClienteES {
 	private Client client = null;
 	private Node node = null;
 
-	
-	
+
 	public ClienteES(String index, String type, String clusterName) {
 		super();
 		this.index = index;
