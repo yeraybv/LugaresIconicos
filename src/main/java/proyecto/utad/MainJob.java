@@ -58,7 +58,6 @@ public class MainJob extends Configured implements Tool {
 		String inputIdTags = properties.getProperty("id_userid_tags");
 		String ip = properties.getProperty("ip");
 		String port = properties.getProperty("port");
-		
 		String numeroReducer = properties.getProperty("numero_reducer");
 		
 		// Ficheros de entrada
